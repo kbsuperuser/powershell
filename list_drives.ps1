@@ -4,7 +4,7 @@
 .DESCRIPTION
     This PowerShell script scan the domain and list drives connected to computers. Scripts export the results to CSV file. Update the target path before running. The execution time of the scripts depends on range of network and speed. Priviligied account is needed to use the script.
 .EXAMPLE
-    PS> ./list drives
+    PS> ./list_drives
 
 .LINK
     https://github.com/volkanu/powershell
