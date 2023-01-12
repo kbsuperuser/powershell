@@ -2,7 +2,7 @@
 .SYNOPSIS
     Remove Web Browsers - Mozilla Firefox, Google Chrome and Opera
 .DESCRIPTION
-    This PowerShell script removes the web browsers
+    This PowerShell script removes the web browsers.Some of these paths might differ depending on where you have installed the browsers and the version of browsers and windows you have. You also need to run the script as administrator or use an elevated PowerShell session. Please review the scripts and take your own risks.Run the script with as administrator or use an elevated PowerShell session on the target workstation. Or create the scripts in SCCM and deploy it to selected collections.
 .EXAMPLE
     PS> ./remove_browsers
 
@@ -11,12 +11,6 @@
 .NOTES
     Author: Volkan U | License: CC0
 #>
-
-
-# Script Uninstall Google Chrome, Mozilla Firefox and Opera. 
-# Some of these paths might differ depending on where you have installed the browsers and the version of browsers and windows you have. You also need to run the script as administrator or use an elevated PowerShell session. Please review the scripts and take your own risks.
-Run the script with as administrator or use an elevated PowerShell session on the target workstation. Or create the scripts in SCCM and deploy it to selected collections.
-
 
 # Uninstall Firefox via the command line
 Start-Process -FilePath "msiexec.exe" -ArgumentList '/x {EC8030F7-C20A-464F-9B0E-13A3A9E97384} /quiet' -Wait
