@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script retrieves details for files inside item folders inside a specified folder, including the file name, size, creator, and last editor. The script exports the results to a CSV file in the same folder.
+    This PowerShell script retrieves details for files inside a specified folder, including the file name, size, creator, and last editor. The script exports the results to a CSV file in the same folder.
 
 .DESCRIPTION
     This PowerShell script is designed to retrieve details for files inside item folders inside a specified folder. The script uses the Get-ChildItem cmdlet with the -Recurse parameter to get all items (files and folders) inside the specified folder, including items in subfolders.
