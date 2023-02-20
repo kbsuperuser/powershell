@@ -7,9 +7,9 @@
     PS> ./get_cpumemoryutilization
 
 .LINK
-    https://github.com/volkanu/powershell
+    https://github.com/kbsuperuser/powershell
 .NOTES
-    Author: Volkan U | License: CC0
+    Author: kbsuperuser.com | License: CC0
 #>
 
 # Define the txt file location to run the script 

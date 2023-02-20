@@ -6,9 +6,9 @@
 .EXAMPLE
     PS> ./open_ports
 .LINK
-    https://github.com/volkanu/powershell
+    https://github.com/kbsuperuser/powershell
 .NOTES
-    Author: Volkan U | License: CC0
+    Author: kbsuperuser.com | License: CC0
 #>
 
 $devices = Get-NetNeighbor | Select-Object IPAddress, HostName

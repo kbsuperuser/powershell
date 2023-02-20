@@ -14,9 +14,9 @@
     Use the commands as needed.
 
 .LINK
-    https://github.com/volkanu/powershell
+    https://github.com/kbsuperuser/powershell
 .NOTES
-    Author: Volkan U | License: CC0
+    Author: kbsuperuser.com | License: CC0
 #>
 
 # Open PowerShell with administrator privileges. Use this cmdlet to check for installed updates on the server.

@@ -7,9 +7,9 @@
     PS> ./last_logon
 
 .LINK
-    https://github.com/volkanu/powershell
+    https://github.com/kbsuperuser/powershell
 .NOTES
-    Author: Volkan U | License: CC0
+    Author: kbsuperuser.com | License: CC0
 #>
 
 Get-ADUser -Filter {enabled -eq $true} -Properties LastLogonTimeStamp | Select-Object Name, @{Name="Stamp"; Expression={[DateTime]::FromFileTime($_.lastLogonTimestamp).ToString('yyyy-MM-dd_hh:mm:ss')}} | Export-CSV = -Path "C:\lastlogon.csv"
